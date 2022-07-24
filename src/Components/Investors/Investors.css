@@ -1,0 +1,14 @@
+.investor-wrapper {
+  position: relative;
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 100%;
+}
+
+.investor-wrapper .text-wrapper {
+  padding-bottom: 100px;
+}
+
+.investor-wrapper .investor-cards {
+  padding-bottom: 150px;
+}

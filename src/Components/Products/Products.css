@@ -1,0 +1,19 @@
+.products-content {
+  position: relative;
+  background-color: #0c0c0c;
+  width: 100%;
+  height: 80vh;
+}
+
+.products-content .products-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.products-content .grid {
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.navbar-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-content .ul-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

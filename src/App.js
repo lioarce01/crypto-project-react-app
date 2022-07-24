@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { NextUIProvider } from "@nextui-org/react"
+import * as React from "react"
+import Navbar from "./Components/Navbar/Navbar"
+import "./App.css"
+import Hero from "./Components/Hero/Hero"
+import Products from "./Components/Products/Products"
+import Mission from "./Components/Mission/Mission"
+import Investors from "./Components/Investors/Investors"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <NextUIProvider>
+      <Navbar />
+      <Hero />
+      <Products />
+      <Mission />
+      <Investors />
+      <Footer />
+    </NextUIProvider>
+  )
 }
 
-export default App;
+export default App
